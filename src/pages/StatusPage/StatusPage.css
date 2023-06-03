@@ -1,0 +1,22 @@
+@keyframes btn-pisca {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+div.status {
+    background-color: red;
+    height: 100vh;
+    width: 100wh;
+    -webkit-animation: btn-pisca .2s linear infinite;
+    -moz-animation: btn-pisca .2s linear infinite;
+    -ms-animation: btn-pisca .2s linear infinite;
+    -o-animation: btn-pisca .2s linear infinite;
+    animation: btn-pisca .2s linear infinite;
+}
+
+div.ok {
+    background-color: green;
+    height: 100vh;
+    width: 100wh;
+}
