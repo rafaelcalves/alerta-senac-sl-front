@@ -5,7 +5,7 @@ function StatusPage() {
     const [status, setStatus] = useState(false);
     const fetchData = async () => {
         try {
-          const response = await fetch(`https://alerta-senac-sl-back.onrender.com/`);
+          const response = await fetch(`https://alerta-senac-sl-back.onrender.com/alerta/status`);
           const jsonData = await response.json();
           setStatus(jsonData.data);
         } catch (error) {
