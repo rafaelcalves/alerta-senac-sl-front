@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 function ButtonPage() {
 
     const handleClick = () => {
-    fetch('https://rafaelcalves-animated-rotary-phone-r4w9gqvvgqpfp4r5-3000.preview.app.github.dev/alerta', {
+    fetch('https://alerta-senac-sl-back.onrender.com/alerta', {
       method: 'POST',
       headers: {
         'Content-Type': 'ButtonPagelication/json'
